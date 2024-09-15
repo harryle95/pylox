@@ -1,0 +1,13 @@
+[project]
+name = "pylox"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "harryle", email = "lehoangsonsg@gmail.com" }]
+dependencies = ["click>=8.1.7", "rich>=13.8.1"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
